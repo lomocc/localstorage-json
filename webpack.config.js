@@ -8,7 +8,7 @@ function getConf(filename, conf) {
     output: {
       path: path.resolve('dist/'),
       filename: filename,
-      libraryTarget: 'var'
+      libraryTarget: 'umd'
     },
     module: {
       loaders: [{
